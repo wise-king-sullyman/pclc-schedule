@@ -6,7 +6,7 @@ import { AppRoutes } from '@app/routes';
 import '@app/app.css';
 
 const App: React.FunctionComponent = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename={'/pclc-schedule'}>
     <AppLayout>
       <AppRoutes />
     </AppLayout>
